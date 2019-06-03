@@ -64,3 +64,237 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* CONTENT CONTAINER */ 
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+
+/* HOME MENU */
+
+.mymenu nav { 
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 15px;
+	margin-right: 50px;
+	margin-left: -40px;
+	background: white;
+}
+.mymenu nav a{ 
+	text-decoration: none;
+	padding: 30px;
+	color: gray;
+}
+
+.mymenu img {
+	display: inline-flex;
+	background: lightblue;
+	align-items: center;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	width: 950px;
+	background-color: white;
+}
+
+header .header-motto {
+	font-size: 85px;
+	text-align: center;
+	background-color: white;
+	margin: 45px;
+	margin-top: 100px;
+}
+
+header .header-image { 
+	background-color: white;
+	margin: 45px;
+	padding: 10px;
+}
+
+.header-motto button {
+	background-color: white;
+	border-color: black;
+	width: 175px;
+	height: 40px;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+
+/* MAIN CONTENT */
+
+main h3{ 
+	font-size: 23px;
+}
+
+
+/* TOP MAIN */
+
+main {
+	display: flex;
+	justify-content: flex-start;
+	width: 950px;
+	background-color: white;
+}
+
+main .features  { 
+	background-color: white;
+	width: 450px;
+	margin-top: 10px;
+}
+
+main .about { 
+	background-color: white;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+
+main img { 
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/* BOTTOM MAIN */ 
+
+.bottom-section {
+	display: flex;
+	justify-content: flex-start;
+	width: 950px;
+	background-color: white;
+}
+
+
+/* FOOTER */
+.copyright {
+	text-align: center;
+}
+
+/* SERVICES CSS */
+
+.services-header-img {
+	width: 950px;
+
+}
+
+.box-container { 
+	height: 950px; 
+	background: white;
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: space-between;
+}
+
+.box-container .box1 { 
+	background: white; 
+	width: 450px;
+	border: 2px solid #000 !important;
+	background: #E9DEDD;
+	margin: 20px 0 40px 0;
+	padding: 30px;
+}
+
+.box-container .box2 { 
+	background: white; 
+	width: 450px;
+	border: 1px solid #000 !important;
+	background: #E9DEDD;
+	margin: 20px 0 40px 0;
+	padding: 30px;
+}
+.box-container .box3 { 
+	background: white; 
+	width: 450px;
+	border: 1px solid #000 !important;
+	background: #E9DEDD;
+	margin-bottom: 40px;
+	padding: 30px;
+}
+
+.box-container .box4 { 
+	background: white; 
+	width: 450px;
+	border: 1px solid #000 !important;
+	background: #E9DEDD;
+	margin-bottom: 40px;
+	padding: 30px;
+}
+.box-container .box5 { 
+	background: white; 
+	width: 450px;
+	border: 1px solid #000 !important;
+	background: #E9DEDD;
+	margin-bottom: 40px;
+	padding: 30px;
+}
+
+.box-container .box6 { 
+	background: white; 
+	width: 450px;
+	border: 1px solid #000 !important;
+	background: #E9DEDD;
+	margin-bottom: 40px;
+	padding: 30px;
+}
+
+.box-container button { 
+	background-color: white; 
+	border-color: black;
+	width: 175px;
+	height: 40px;
+	font-size: 16px;
+	vertical-align: top;
+} 
+
+.bottom-container {  
+	background: white;
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.s-bottom {
+	background: white;
+	width: 450px;
+	margin: 40px 0 0 0;
+}
+
+.b-img {
+	background: white;
+	width: 450px;
+	margin: 10px 0 0 -40px;
+	padding: 30px;
+}
+
+.bottom-container li {
+	list-style-type: none;
+	line-height: 20px;
+	}
+
+/* PAGE ELEMENTS */
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: 48px;
+  border-style: inset;
+	border-width: 1px;
+	border-color: black;
+	width: 100%;
+} 
+
+li {
+list-style-type: none;
+line-height: 20px;
+}
